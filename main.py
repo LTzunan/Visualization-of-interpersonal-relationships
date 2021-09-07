@@ -162,7 +162,7 @@ def main():
             if palyer2 not in nodes:
                 nodes.append(palyer2)
 
-    linestyle_opts1=opts.LineStyleOpts(is_show=True,width=1,opacity=0.6,type_="solid", color="black")
+    linestyle_opts1=opts.LineStyleOpts(is_show=True,width=1,opacity=0.1,type_="solid", color="black")
     linestyle_opts2=opts.LineStyleOpts(is_show=True,width=1,opacity=0.3,type_="solid", color="red")
     for i in range(len(C)):
         for j in range(len(C[i])):
